@@ -6,6 +6,7 @@ This is an application that should be placed in the startup of the system. Confi
 
 Sample Configuration file(config.properties)
 
+<code>
 #allTimePrograms are always started regardless of the time the program is started.
 allTimePrograms =skype,gedit
 
@@ -37,4 +38,5 @@ holidays =SATURDAY,SUNDAY
 #If it is true homeTimePrograms are started during holidays regardless of the time  but only allTimePrograms are started if it is false
 stayHomeDuringHolidays=true
 
+</code>
 
